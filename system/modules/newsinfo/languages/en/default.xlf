@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+	<file datatype="php" original="system/modules/patternNewsInfo/languages/en/default.php" source-language="en">
+		<body>
+			<trans-unit id="MOD.patternNewsInfo">
+				<source>News article meta info (Pattern)</source>
+			</trans-unit>
+
+			<trans-unit id="CTP.newsinfo.0">
+				<source>News metainfo</source>
+			</trans-unit>
+			<trans-unit id="CTP.newsinfo.1">
+				<source>Insert news article meta infos (date, author, location, comments count).</source>
+			</trans-unit>
+
+
+		</body>
+	</file>
+</xliff>
