@@ -1,10 +1,11 @@
 <?php
 /**
- * Contao Open Source CMS
+ * Contao Open Source CMS Extension
  *
- * Copyright (c) 2005-2015 Leo Feyer
- *
- * @license LGPL-3.0+
+ * @package  	 News meta info (Content block pattern)
+ * @author   	 Arne Stappen
+ * @license  	 LGPL-3.0+ 
+ * @copyright	 Arne Stappen (2016)
  */
  
  
