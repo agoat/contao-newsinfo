@@ -1,14 +1,11 @@
 <?php
-
 /**
- * Contao Open Source CMS
+ * Contao Open Source CMS Extension
  *
- * Copyright (c) 2005-2015 Leo Feyer
- *
- * @package  	 ReadMore
+ * @package  	 News meta info (Content block pattern)
  * @author   	 Arne Stappen
  * @license  	 LGPL-3.0+ 
- * @copyright	 Arne Stappen 2015
+ * @copyright	 Arne Stappen (2016)
  */
  
  
@@ -17,7 +14,4 @@
  * CONTENT PATTERN
  * -------------------------------------------------------------------------
  */
-
 $GLOBALS['TL_CTP']['system']['newsinfo'] = 'PatternNewsInfo';
-
-
