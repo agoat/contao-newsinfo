@@ -17,10 +17,8 @@
  */
 ClassLoader::addClasses(array
 (
-
 	// Pattern
 	'Contao\\PatternNewsInfo' 		=> 'system/modules/newsinfo/pattern/PatternNewsInfo.php',
-
 ));
 
 
