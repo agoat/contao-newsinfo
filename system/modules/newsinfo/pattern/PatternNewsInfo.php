@@ -24,8 +24,7 @@ class PatternNewsInfo extends \Pattern
 	 */
 	public function construct()
 	{
-
-		
+		return;
 	}
 	
 
@@ -48,7 +47,6 @@ class PatternNewsInfo extends \Pattern
 			global $objPage;
 			
 			$objNewsArticle = \NewsModel::findbyPk($this->cpid);
-			
 			
 			$arrMeta = array();
 			
