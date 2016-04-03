@@ -8,18 +8,13 @@
  */
  
  
-
- 
 /**
  * Palettes
  */
 $GLOBALS['TL_DCA']['tl_news']['palettes']['default'] = str_replace('time;', 'time;{location_legend},location;', $GLOBALS['TL_DCA']['tl_news']['palettes']['default']);
 
-
 // remove some filter options
 $GLOBALS['TL_DCA']['tl_news']['fields']['noComments']['filter'] = false;
-
-
 
 // Fields
 $GLOBALS['TL_DCA']['tl_news']['fields']['location'] = array
