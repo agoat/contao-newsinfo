@@ -1,16 +1,13 @@
 <?php
-
 /**
- * Contao Open Source CMS
- * 
- * Copyright (C) 2005-201 Leo Feyer
- * 
- * @package   Wrapper 
- * @author    Arne Stappen 
- * @license   LGPL 
- * @copyright A. Stappen (2011-2015)
+ * Contao Open Source CMS Extension
+ *
+ * @package  	 News meta info (Content block pattern)
+ * @author   	 Arne Stappen
+ * @license  	 LGPL-3.0+ 
+ * @copyright	 Arne Stappen (2016)
  */
-
+ 
  
 namespace Contao;
 
