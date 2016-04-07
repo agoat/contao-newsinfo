@@ -46,19 +46,22 @@ class PatternNewsInfo extends \Pattern
 			$objNewsArticle = \NewsModel::findbyPk($this->cpid);
 			
 			$arrMeta = array();
-			
-			//date
-			$arrMeta['mdate'] = $objNewsArticle->date;
-			$arrMeta['date'] = \Date::parse($objPage->datimFormat, $objNewsArticle->date);
 
-			//location
-			$arrMeta['location'] = $objNewsArticle->location;
+			//headline
+			$arrMeta['headline'] = $objNewsArticle->headline;
 
 			//author
 			if (($objAuthor = $objNewsArticle->getRelated('author')) !== null)
 			{
 				$arrMeta['author'] = $objAuthor->name;
 			}
+
+			//date
+			$arrMeta['mdate'] = $objNewsArticle->date;
+			$arrMeta['date'] = \Date::parse($objPage->datimFormat, $objNewsArticle->date);
+
+			//location
+			$arrMeta['location'] = $objNewsArticle->location;
 			
 			//comments
 			if (!$objNewsArticle->noComments && in_array('comments', \ModuleLoader::getActive()) && $objNewsArticle->source == 'default')
