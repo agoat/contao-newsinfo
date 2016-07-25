@@ -79,7 +79,7 @@ class PatternNewsInfo extends \Pattern
 				}
 			}
 			
-			parent::compile($arrMeta);
+			$this->writeToTemplate($arrMeta);
 		}
 	}
 	
